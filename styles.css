@@ -1,12 +1,15 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9; 
+    color: #333; 
 }
 
 header, footer {
-    background-color: #333;
-    color: white;
+    background-color: #2c3e50;
+    color: white; 
     padding: 10px 20px;
 }
 
@@ -22,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: white; 
     text-decoration: none;
 }
 
@@ -30,29 +33,31 @@ main {
     padding: 20px;
 }
 
+/* Styles for specific elements */
 .grooming-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout for grooming items */
     grid-gap: 20px;
 }
 
 .grooming-item {
-    background-color: #f2f2f2;
+    background-color: #3498db; 
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    color: white;
 }
 
 .content {
     display: none;
     padding: 0 18px;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #afefc4;
     border-radius: 5px;
 }
 
 .collapsible {
-    background-color: #777;
+    background-color: #2ecc71;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -61,10 +66,11 @@ main {
     text-align: left;
     outline: none;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .collapsible.active {
-    background-color: #555;
+    background-color: #27ae60; 
 }
 
 .collapsible-set {
