@@ -1,16 +1,11 @@
 <data>
     <service>
-        <name>Grooming</name>
-        <description>Professional grooming services for your pets.</description>
-        <price>$50</price>
-    </service>
-    <service>
         <name>Pets Hotel</name>
         <description>Luxurious hotel accommodation for your pets.</description>
         <price>$100 per night</price>
     </service>
     <service>
-        <name>Pet Day Camp</name>
+        <name>Pet Day Camp Activities</name>
         <description>Exciting day camp activities for your pets.</description>
         <price>$30 per day</price>
     </service>
