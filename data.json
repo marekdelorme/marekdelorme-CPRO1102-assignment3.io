@@ -1,19 +1,14 @@
 {
     "services": [
         {
-            "name": "Grooming",
+            "name": "Basic Grooming",
             "description": "Professional grooming services for your pets.",
             "price": "$50"
         },
         {
-            "name": "Pets Hotel",
-            "description": "Luxurious hotel accommodation for your pets.",
-            "price": "$100 per night"
-        },
-        {
-            "name": "Pet Day Camp",
-            "description": "Exciting day camp activities for your pets.",
-            "price": "$30 per day"
+            "name": "Premium Grooming",
+            "description": "Luxurious grooming services for your pets.",
+            "price": "$75"
         }
     ]
 }
